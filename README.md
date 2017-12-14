@@ -20,6 +20,45 @@ It is tool that merge images from different combination.
 
     ./Node-Combinate-Images-*
 
+    [
+        [
+            "assets/background/bg-00.jpg",
+            "assets/cats/cat-00.png"
+        ],
+        [
+            "assets/background/bg-00.jpg",
+            "assets/cats/cat-01.png"
+        ],
+        [
+            "assets/background/bg-00.jpg",
+            "assets/cats/cat-02.png"
+        ],
+        [
+            "assets/background/bg-01.jpg",
+            "assets/cats/cat-00.png"
+        ],
+        [
+            "assets/background/bg-01.jpg",
+            "assets/cats/cat-01.png"
+        ],
+        [
+            "assets/background/bg-01.jpg",
+            "assets/cats/cat-02.png"
+        ],
+        [
+            "assets/background/bg-02.jpg",
+            "assets/cats/cat-00.png"
+        ],
+        [
+            "assets/background/bg-02.jpg",
+            "assets/cats/cat-01.png"
+        ],
+        [
+            "assets/background/bg-02.jpg",
+            "assets/cats/cat-02.png"
+        ]
+    ]
+
 Output files to ./assets/output .
 
 ## Setting Example

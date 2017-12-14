@@ -28,6 +28,7 @@ const foldersFiles = folders.map((folder) => {
 })
 
 const combinations = permuteFromSets(foldersFiles)
+console.log(combinations)
 combinations.map(combination => mergeImages(combination))
 
 
