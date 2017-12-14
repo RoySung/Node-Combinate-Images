@@ -18,8 +18,14 @@ It is tool that merge images from different combination.
 
 ## Starting Quickly
 
+### nodejs
+    node index.js
+
+### pkg
+
     ./Node-Combinate-Images-*
 
+### 
     [
         [
             "assets/background/bg-00.jpg",
