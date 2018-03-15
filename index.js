@@ -65,12 +65,11 @@ function permuteFromSets(sets) {
 }
 
 function outputFile(path, fileName, buffer) {
-  fs.writeFile(`${path}/${fileName}`, buffer, (err, written) => {
-    if (err) {
-      console.log(err)
-    } else {
-      console.log("info: Success, Output file " + fileName);
-    }
-  })
+  try {
+    fs.writeFileSync(`${path}/${fileName}`, buffer, 'utf8')
+    console.log("info: Success, Output file " + fileName);
+  } catch (error) {
+    console.log('err: ' + error)
+  }
 }
 
